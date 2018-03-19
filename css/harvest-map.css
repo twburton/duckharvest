@@ -1,0 +1,88 @@
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#hcontainer {
+  width: 100%;
+  padding: 0px;
+}
+#hmap-container path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+  float: left;
+  display: block;
+  height: 600px;
+
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+h1{
+    color:black;
+    font-size:32px;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:100%;
+   }
+   .statesmap{
+	float:left;
+	width:100%;
+	display:inline-block;
+}
+
+.table1{
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 22%;
+	height: 100%;
+	table-layout: fixed;
+	overflow: hidden;
+	float: right;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 5%;
+}
+.texas{float:left;display:inline-block;width:80%;height:80%}
+.california{float: left;display:inline-block; width:80%;height:80%;}
+.louisiana{float: left;display:inline-block;width:85%;height:85%}
+.northdakota{float: left;display:inline-block;width:80%;height:80%;}
+
+/*.legend { list-style: none;display:inline-block; margin-right: 30%; margin-left: 50px;}
+.legend li { float: left; margin-right: 200px; margin-left: 200px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+.legend .two { background-color: #99d8c9; }
+.legend .three { background-color: #66c2a4; }
+.legend .four { background-color: #2ca25f; }
+.legend .five { background-color: #006d2c; }*/
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
