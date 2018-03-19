@@ -113,18 +113,13 @@
 						<div id="hcontainer">
 							<div id="hmap-container">
 			
-								<object id='harvestmap.svg' type="image/svg+xml" data="example3a.svg" />
+								<object id='harvestmap' type="image/svg+xml" data="harvestmap.svg" />
 								<script type="text/ecmascript">
-									function changeRectColor(evt) {
-										var red = Math.round(Math.random() * 255);
-										evt.target.setAttributeNS(null,"fill","rgb("+ red +","+ red+","+red+")");
-									}
-
+								
 									var obj = document.getElementById('harvestmap');
 									obj.addEventListener('load', function() {
 										var svgDoc= obj.getSVGDocument();
-										var elem = svgDoc.getElementById("myBlueRect");
-										elem.addEventListener('click', changeRectColor);
+										
 									});
 								</script>
 							</div> <!--end map div-->
