@@ -1,5 +1,4 @@
-<html>
- <body>
+
  <svg id="svg1" height="593" width="959" xmlns="http://www.w3.org/2000/svg">
  <title>
   Blank US states map
@@ -105,16 +104,8 @@
   </path>
   <path d="M353,161.9 l-1.5,25.4 -4.4,44 -2.7,-0.3 -83.3,-9.1 -27.9,-3 2,-12 6.9,-41 3.8,-24.2 1.3,-11.2 48.2,7 59.1,6.5z" data-info="&lt;div&gt;39 Wyoming&lt;/div&gt;" fill="#99d8c9" id="WY">
   </path>
-  <g id="DC">
-   <path d="M801.8,253.8 l-1.1-1.6 -1-0.8 1.1-1.6 2.2,1.5z" fill="#D3D3D3" id="DC1">
-   </path>
-   <circle cx="801.3" cy="251.8" data-info="District of Columbia" fill="#D3D3D3" id="DC2" opacity="1" r="5" stroke="#FFFFFF" stroke-width="1.5">
-   </circle>
-   <!-- Set opacity to "0" to hide DC circle -->
-  </g>
+ 
  </g>
- <path d="M215,493v55l36,45 M0,425h147l68,68h85l54,54v46" fill="none" id="frames" stroke="#A9A9A9" stroke-width="2">
- </path>
 </svg>
 
 
@@ -6649,5 +6640,3 @@
    </path>
   
   </svg>
- </body>
-</html>
