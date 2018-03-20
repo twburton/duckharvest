@@ -113,12 +113,15 @@
 						<div id="hcontainer">
 							<div id="hmap-container">
 								
-							<div id="svg-01" class="placeholder"></div>
-								<script src="jquery-3.3.1.min.js"></script>
-								<script>
-								$(document).ready(function(){
-									$("#svg-01").replaceWith('harvestmap.svg');
-									})
+							
+								<object id='harvestmap' type="image/svg+xml" data="harvestmap.svg" />
+								<script type="text/ecmascript">
+								
+									var obj = document.getElementById('harvestmap');
+									obj.addEventListener('load', function() {
+										var svgDoc= obj.getSVGDocument();
+										
+									});
 								</script>
 								
 							</div> <!--end map div-->
