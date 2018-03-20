@@ -112,15 +112,13 @@
 
 						<div id="hcontainer">
 							<div id="hmap-container">
-			
-								<object id='harvestmap' type="image/svg+xml" data="harvestmap.svg" />
-								<script type="text/ecmascript">
 								
-									var obj = document.getElementById('harvestmap');
-									obj.addEventListener('load', function() {
-										var svgDoc= obj.getSVGDocument();
-										
-									});
+								<div id="htmlEmbed"></div>
+								<script>
+								d3.select("#htmlEmbed").append("img")
+									.attr("src","harvestmap.svg")
+									.attr("width", 100)
+									.attr("height", 100)
 								</script>
 							</div> <!--end map div-->
 							<div class="table1" id="mytable"></div>
