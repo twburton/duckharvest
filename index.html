@@ -113,13 +113,14 @@
 						<div id="hcontainer">
 							<div id="hmap-container">
 								
-								<div id="htmlEmbed"></div>
+							<div id="svg-01" class="placeholder"></div>
+								<script src="jquery-3.3.1.min.js"></script>
 								<script>
-								d3.select("#htmlEmbed").append("img")
-									.attr("src","harvestmap.svg")
-									.attr("width", 100)
-									.attr("height", 100)
+								$(document).ready(function(){
+									$("#svg-01").replaceWith('harvestmap.svg');
+									})
 								</script>
+								
 							</div> <!--end map div-->
 							<div class="table1" id="mytable"></div>
 						</div> <!--end container div-->
