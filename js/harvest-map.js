@@ -12,7 +12,7 @@ svgTexas=document.getElementById('svgTexas');
 
 //make for each state
 
-
+/*
 svgCalifornia.style.display = 'none';
 
 svgLouisiana.style.display = 'none';
@@ -20,7 +20,7 @@ svgLouisiana.style.display = 'none';
 svgNorthdakota.style.display = 'none';
 
 svgTexas.style.display = 'none';
-
+*/
 settable=0;
 var timeout;
 
