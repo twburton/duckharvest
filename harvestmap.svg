@@ -1,5 +1,3 @@
-<html>
- <body>
 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg height="593" width="959" xmlns="http://www.w3.org/2000/svg">
@@ -6661,5 +6659,4 @@
    <path d="M 154.32743,294.71587 L 154.32743,330.08203 L 177.47618,351.01798 M 0.64999998,250.99045 L 111.24502,250.99045 L 154.32743,294.71587 L 209.62724,294.71587 L 243.70736,329.43901 L 243.70736,351.01798" id="separator" style="fill:none;stroke:#a9a9a9;stroke-width:1.29999995">
    </path>
   </svg>
- </body>
-</html>
+
