@@ -14,13 +14,13 @@ svgTexas=document.getElementById('svgTexas');
 
 
 svgCalifornia.style.display = 'none';
-
+/*
 svgLouisiana.style.display = 'none';
 
 svgNorthdakota.style.display = 'none';
 
 svgTexas.style.display = 'none';
-
+*/
 settable=0;
 var timeout;
 
