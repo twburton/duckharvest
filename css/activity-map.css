@@ -24,20 +24,12 @@
 }
 
 .label {
-    color: #002868;
-    font-family: "Arial Narrow", Arial, sans-serif;
     margin: 5px 0px;
-   /* font-size: 20px;*/
 }
 
 .state {
-    /*font-size: 28px;*/
-    display: inline;
+  display: inline;
 	font-weight: bold;
-}
-
-.data-value {
-  margin-top: 10px;
 }
 
 #container {
@@ -60,6 +52,11 @@
   font-family: sans-serif;
 }
 
+div#tx-indent {
+	text-indent: 20px;
+	font-size: 15pt;
+}
+
 div#map-text {
   position: absolute;
   margin-left: 80px;
@@ -76,6 +73,8 @@ div#data-panel {
   display: block;
   margin-left: 10px;
   font-size: 16pt;
+  color: #002868;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 /* barchart css*/
@@ -109,37 +108,25 @@ svg text {
   cursor: pointer;
 }
 
-.PF-North {
-  fill: #f7fbff;
-}
-
-.PF-South {
-  fill: #deebf7;
-}
-
-.CF-North {
-  fill: #c6dbef;
-}
-
-.CF-South {
-  fill: #9ecae1;
-}
-.MF-North {
+.PF-North, .MF-North {
   fill: #6baed6;
 }
 
-.MF-South {
+.PF-South, .MF-South {
   fill: #4292c6;
 }
 
-.AF-North {
+.CF-North, .AF-North {
   fill: #2171b5;
 }
 
-.AF-South {
+.CF-South, .AF-South {
   fill: #084594;
 }
 
+.barchart-selected {
+    fill: #FFDEAD;
+}
 
 .exempt {
   fill: 'grey';
@@ -147,4 +134,14 @@ svg text {
 
 #mapid {
   padding-top: 10px;
+}
+
+/*text css*/
+#subhead-text {
+  display: block;
+  margin-left: 10px;
+  font-size: 16pt;
+  color: #002868;
+  font-family: "Arial Narrow", Arial, sans-serif;
+	font-weight: bold;
 }
